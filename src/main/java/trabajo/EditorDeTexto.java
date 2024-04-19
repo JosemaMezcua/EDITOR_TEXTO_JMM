@@ -124,10 +124,9 @@ public class EditorDeTexto extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
             EditorDeTexto editor = new EditorDeTexto(); // Crea una instancia del editor de texto
             editor.setVisible(true); // Hace visible la ventana del editor
-        });
+        
     }
 }
 
